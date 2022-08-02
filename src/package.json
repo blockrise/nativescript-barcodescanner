@@ -1,6 +1,6 @@
 {
-  "name": "nativescript-barcodescanner",
-  "version": "4.1.2",
+  "name": "@blockrise/nativescript-barcodescanner",
+  "version": "4.1.2a",
   "description": "Scan QR/barcodes with your NativeScript app.",
   "main": "barcodescanner",
   "typings": "index.d.ts",
@@ -9,6 +9,9 @@
       "android": "7.0.0",
       "ios": "7.0.0"
     }
+  },
+  "publishConfig": {
+    "registry": "https://europe-west4-npm.pkg.dev/blockrise-capital/npm"
   },
   "scripts": {
     "tsc": "tsc -skipLibCheck",
@@ -31,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eddyverbruggen/nativescript-barcodescanner.git"
+    "url": "git+https://github.com/blockrise/nativescript-barcodescanner.git"
   },
   "keywords": [
     "ecosystem:nativescript",
